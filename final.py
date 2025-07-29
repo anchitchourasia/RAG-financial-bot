@@ -4,7 +4,7 @@ from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
-from pinecone import Pinecone
+from pinecone import Pinecone, ServerlessSpec
 import os
 import glob
 
